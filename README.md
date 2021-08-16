@@ -6,6 +6,16 @@ __trwiki-67__ is a language modeling dataset that contain 67 million words of ra
 
 This dataset was extracted from a Turkish wikipedia [dump](https://dumps.wikimedia.org/trwiki/) on 20 July 2021.
 
+## Download
+
+The dataset is hosted on [Zenodo](https://zenodo.org/), it can be downloaded using the following:
+
+```bash
+wget -O trwiki-67.tar.bz2 https://zenodo.org/record/5205683/files/trwiki-67.tar.bz2?download=1
+tar -xf trwiki-67.tar.bz2
+rm trwiki-67.tar.bz2
+```
+
 ## Preprocessing
 
 All lists and tables were removed from the articles, and the initial extraction from .xml dump was done using [wikiextractor](https://github.com/attardi/wikiextractor/):

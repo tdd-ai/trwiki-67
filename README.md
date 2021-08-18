@@ -2,7 +2,7 @@
 
 <a href="https://doi.org/10.5281/zenodo.5213891"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5213891.svg" alt="DOI"></a>
 
-__trwiki-67__ is a language modeling dataset that contain 67 million words of raw wikipedia articles. It can be utilized as a benchmark for different language modeling tasks on character, subword, or word level.
+__trwiki-67__ is a language modeling dataset that contain 67 million words of raw wikipedia articles. The dataset is provided in both tokenized and raw-text forms. It can be utilized as a benchmark for different language modeling tasks on character, subword, or word level. 
 
 This dataset was extracted from a Turkish wikipedia [dump](https://dumps.wikimedia.org/trwiki/) on 20 July 2021.
 
@@ -56,7 +56,7 @@ Bovenau Almanya'nÄ±n kuzeyinde Schleswig-Holstein eyaletinde, Rendsburg-EckernfÃ
 
 ## Tokenization
 
-We train a sentencepiece tokenizer using [tokenizers](https://huggingface.co/docs/tokenizers/python/latest/index.html) with 32K vocabulary size, which is provided in the package.
+We train a sentencepiece tokenizer using [tokenizers](https://huggingface.co/docs/tokenizers/python/latest/index.html) with 32K vocabulary size, which is provided in the package. 
 
 Tokenized example:
 
